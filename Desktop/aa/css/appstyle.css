@@ -1,0 +1,14 @@
+body{background:url(http://i134.photobucket.com/albums/q101/xavqior/Blogskins/GreeneryLandscape.jpg) repeat-x top; background-color:#dfff5b;}
+body, td{font:normal 8pt tahoma,arial,verdana; color:#000000; cursor:default; line-height:95%;}
+
+a{font:normal 8pt tahoma,arial,verdana; color:#88870e; text-decoration:none;} 
+a:hover{text-decoration:none; font-weight:normal; cursor:none; color:#666666;}
+
+.entries, span{font:normal 8pt tahoma,arial,verdana; color:#000000; line-height:none; text-align:left; line-height:100%;}
+.date{font:bold 8pt tahoma,arial,verdana; color:#666666; text-align:left; text-transform:uppercase; background:#dfff5b; border-bottom:2px solid #acc640; line-height:95%;} 
+.navigation{font:bold 8pt tahoma,arial,verdana; color:#666666; text-align:left; text-transform:uppercase; background:#dfff5b; border-bottom:2px solid #acc640; line-height:95%;}
+.welcome{font:normal 10pt tahoma,arial,verdana; color:#545454;}
+.navigationbox{padding:5px; text-align:center;}
+.entrybox{border:none;}
+
+#navbar-iframe{height:0px; visibility:hidden; display:none}

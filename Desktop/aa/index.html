@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+        <!--  Include the raphael library from the jslibs directory  -->
+        <script type="text/javascript" src="jslibs/raphael.js"></script>
+        <!--  Use the require.js module loader, and tell it where our main JavaScript file is  -->
+        <script type="text/javascript" data-main="appscripts/main.workedout.js" src="jslibs/require.js"> </script>
+
+    <title> WELCOME </title>
+    </head>
+    
+
+    <body>
+    <img src="scroll right.jpg" style="position:absolute;left:50px;top:0px" alt="image" height="240" width="220"> 
+
+<!--MAILBOX IMAGE-->
+    <img src="http://i134.photobucket.com/albums/q101/xavqior/Blogskins/Mailbox.jpg" style="position:relative;left:400px;top:0px" alt="image">
+<!--CAT GIF-->
+    <img src="http://www.picgifs.com/animal-graphics/animal-graphics/cats/animal-graphics-cats-664483.gif" style="position:absolute;left:1980px;top:370px" alt="image">
+<!--LEAVES-->
+    <img src="http://sites86.ac-poitiers.fr/nieuil-mat/sites/nieuil-mat/IMG/gif/fall_leaves_ani.gif" style="position:relative;left:225px;top:0px" alt="image">
+<!--1ST SKELETON-->
+    <img src="http://www.netanimations.net/skeltw2.gif" style="position:relative;left:185px;top:-30px" alt="image"> 
+
+<!--BLOG IMAGE-->
+    <img src="http://i134.photobucket.com/albums/q101/xavqior/Blogskins/Blog.jpg" style="position:absolute;left:1110px;top:2px" alt="image">
+
+<!--ABOUT IMAGE-->
+    <img src="http://i134.photobucket.com/albums/q101/xavqior/Blogskins/About.jpg" style="position:absolute;left:720px;top:0px" alt="image">
+    <img src="http://www.netanimations.net/skeltw2.gif" style="position:relative;left:495px;top:-30px" alt="image" height="162" width="122"> 
+
+<!--TAG IMAGE-->
+    <img src="http://i134.photobucket.com/albums/q101/xavqior/Blogskins/Tag.jpg" style="position:absolute;left:1655px;top:2px" alt="image">
+    <img src="http://www.netanimations.net/skeltw2.gif" style="position:relative;left:925px;top:-30px" alt="image" height="132" width="122"> 
+
+    <div style="position:absolute;left:455px;top:290px;width:100px;text-align:center" class="welcome">the land of no return</div>
+
+<!--parrot-->
+    <img src="http://4.bp.blogspot.com/-EPY5W-TzTfw/U3jbVqQ-f0I/AAAAAAAAACc/0MnpwH2GRes/s1600/sample6ggg+(1).gif" style="position:absolute;left: 50px;top:0px" alt="image" height="142" width="112">
+
+<!--ABOUT-->
+    <div style="position:absolute;overflow:auto;left:735px;top:196px;width:330px;height:233px">
+    <div class="navigation">INTERACTIVE STORYTELLING</div>
+    <div class="navigationbox">
+    <h1> "Where did the alphabet go?" </h1> 
+
+    <audio id="sound1" src="typewriter-1.mp3"></audio>
+    <img src="http://www.netanimations.net/animated_typewriter_gif.gif" onclick="document.getElementById('sound1').play();">
+    
+    <p> The typewriter types at night, the sound <a href="javascript:void(0)" onclick="if(this.innerHTML =='chomps'){this.innerHTML = 'of it eating every key and crunching them to bits and pieces. It is the sound of A to Z wailing in pain'}else{this.innerHTML = 'chomps'}">chomps</a> to a rhythm.</p>
+    <br>
+    <img id="myImage" onclick="changeImage()" src="http://www.tau.ac.il/~ayali/arg-a-5O-tRyA.gif" height="120" width="112">
+    
+    <br>
+    <p> A voice drifted up from the typewriter. </p>
+    <p> It was Z. </p>
+
+    <button onclick="myFunction()">Dear Typewriter</button>
+    <p id="lastwords"></p>
+        
+    <p>The wise men were all fools. What to do.</p>
+
+    <div id="myid"> I see black light </div>
+    <br>
+    <a href="#" onclick="changeColor('myid'); return false;"> The End </a>
+
+    </div>
+    </div>
+
+
+<!--BLOG GAME CHALLENGE-->
+    <div style="position:absolute;overflow:auto;left:1140px;top:198px;width:480px;height:233px">
+    <Blogger>
+    <div class="entrybox">
+    <div class="entries">
+    <div class="date">
+    <BlogDateHeader>Game Challenge</BlogDateHeader>
+    </div>
+    <br>
+    <div id='main'><div id='GameChallenge'>
+
+    <CENTER>
+    <FORM name="theForm">
+    <TABLE BORDER=3 CELLSPACING=0 CELLPADDING=0>
+    
+    <TR> How fast can you type these sentences? To begin, select difficulty level 
+    <TD align=center><input type=radio name="bne" value="Beginner" onClick="b()" checked>Beginner
+    <input type=radio name="bne" value="Novice" onClick="n()">Novice
+    <input type=radio name="bne" value="Expert" onClick="e()">Expert</TD>
+    </TR>
+
+    <TR><TD colspan=2><BR>
+    <center><input type=button value="Start Typing Test" name="start" onClick="startgame()"></center><P>
+    <textarea name="given" cols=53 rows=3 wrap=on onFocus="cheat()"></textarea></TD>
+    </TR>
+    
+    <TR><TD colspan=2><center><input type=text name="typed" size=45>
+    <input type=button value="DONE"  name="stop"  onClick="stopIt()"></center></TD>
+    </TR>
+    
+    </TABLE></FORM>
+    </CENTER>
+    </div> 
+    </div> 
+    </div>
+    </div>
+    </Blogger>
+    </div>
+
+
+<!--TAG-->
+    <div style="position:absolute;overflow:auto;left:1695px;top:200px;width:250px;height:233px">
+    <div class="navigation"> REPORT </div>
+    <CENTER>
+    <br>
+    <br>
+    <br>
+    <a href="NM2207 Report Felicia Yeo.pdf" target="_blank"><img src="http://healthcare.utah.edu/huntsmancancerinstitute/research/labs/gertz/images/adobe-pdf-logo.png" alt="Report_Felicia Yeo" height="92" width="90" align="middle"> </a>
+    <br>
+    <br>
+    <p> NM2207 FINAL ASSIGNMENT </p>
+    <p> FELICIA YEO </p>
+
+     </div>
+    </CENTER>
+
+    </body>
+
+</html>
